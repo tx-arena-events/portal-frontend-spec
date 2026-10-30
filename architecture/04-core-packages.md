@@ -252,6 +252,8 @@ export class PermissionKeyFactory {
 
 ## Example: `@portal/registration-core` – "Register a company"
 
+> **Superseded for OSP 2.0.** This example shows the mechanics of a core package (ports, adapters, mappers, result unions, progress). In OSP 2.0 the **Process Orchestration** runs the steps of the registration in the backend, so the frontend no longer chains the calls itself. The current registration building block is in [14 – Example: company registration in OSP 2.0](./14-example-registration.md).
+
 In the legacy `portal-frontend-registration` this is a wizard spread over Redux slices. As a core use case it becomes one call with progress feedback. The flow uses these endpoints (paths from the legacy app, fields in `snake_case`; the real names come from the module's `openapi.yaml`):
 
 1. `GET companyRoleAgreementData` – which agreements are mandatory for the chosen roles

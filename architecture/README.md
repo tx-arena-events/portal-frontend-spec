@@ -27,6 +27,7 @@ The frontend is as dumb as possible: business decisions and everything OSP-speci
 | 11 | [Implementation roadmap](./11-implementation-roadmap.md) | Phases 0–7 with tasks and definition of done |
 | 12 | [Recipe: adding a module](./12-adding-a-module.md) | Step-by-step walkthrough for a new backend module |
 | 13 | [Decisions](./13-decisions.md) | Decision log with reasons |
+| 14 | [Example: company registration in OSP 2.0](./14-example-registration.md) | One complete building block: EBW-Connector (C5-M1), Registration (C1-M2), Process Orchestration |
 
 ## The architecture on one page
 
